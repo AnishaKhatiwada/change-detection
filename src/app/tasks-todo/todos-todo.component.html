@@ -1,0 +1,7 @@
+<p>{{taskProps.message}}</p>
+
+<div> Check Loading:&nbsp; {{checkLoad()}}</div>
+<p>Find {{filter$ | async}}</p>
+
+<div><button (click)="changeMessage()">Change message Internally</button>&nbsp;
+<button (click)="changeFilter()">Change Filter</button> </div>
